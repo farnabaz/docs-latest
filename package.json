@@ -11,9 +11,6 @@
     "lint": "eslint .",
     "typecheck": "nuxt typecheck"
   },
-  "resolutions": {
-    "@nuxt/content": "npm:@nuxt/content-edge@latest"
-  },
   "dependencies": {
     "@iconify-json/heroicons": "^1.1.19",
     "@iconify-json/simple-icons": "^1.1.90",
@@ -31,7 +28,8 @@
     "vue-tsc": "^1.8.27"
   },
   "resolutions": {
-    "vue": "3.3.13"
+    "vue": "3.3.13",
+    "@nuxt/content": "npm:@nuxt/content-edge@latest"
   },
   "overrides": {
     "vue": "3.3.13"
