@@ -1,1 +1,0 @@
-import{d as o,b as r,c as s,t as a}from"./entry.BZ3H92HB.js";const l=o({__name:"TestProps",props:{left:{default:1},right:{default:1}},setup(e){const t=e;return(n,p)=>(r(),s("pre",null,a(t)))}});export{l as default};
