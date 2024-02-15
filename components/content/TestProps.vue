@@ -1,5 +1,5 @@
 <template>
-    <pre>{{ props }}</pre>
+    <pre>{{ props.left }} -- {{ props.right }} </pre>
 </template>
 
 <script setup lang="ts">
