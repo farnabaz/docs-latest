@@ -57,7 +57,7 @@ export default defineNuxtSchema({
           }
         }),
         primary: field({
-          type: 'string',
+          type: 'color',
           title: 'Primary',
           description: 'Primary color of your UI.',
           icon: 'i-mdi-palette-outline',
@@ -65,7 +65,7 @@ export default defineNuxtSchema({
           required: ['sky', 'mint', 'rose', 'amber', 'violet', 'emerald', 'fuchsia', 'indigo', 'lime', 'orange', 'pink', 'purple', 'red', 'teal', 'yellow', 'green', 'blue', 'cyan', 'gray', 'white', 'black']
         }),
         gray: field({
-          type: 'string',
+          type: 'color',
           title: 'Gray',
           description: 'Gray color of your UI.',
           icon: 'i-mdi-palette-outline',
